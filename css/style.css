@@ -44,7 +44,6 @@ a:hover {
 
 .pararaxArea {
   position: relative;
-  background-color: #f8f8f8;
   height: 500px;
   width: 100vw;
   display: -webkit-box;
@@ -60,8 +59,6 @@ a:hover {
 }
 .pararaxArea .pararaxItem {
   position: absolute;
-}
-.pararaxArea .pararaxItem:nth-child(1) {
   width: 110vw;
   height: 500px;
   background: url(../img/pexels-karolina-grabowska-5882683.jpg) no-repeat;

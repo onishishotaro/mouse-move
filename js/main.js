@@ -15,6 +15,6 @@ activeArea.addEventListener("mousemove", (e) => {
   // const y = (yCenter - e.pageY) / parallaxVal;
   // パララックスさせる要素にstyleの指定
   for (var i = 0; i < target.length; i++) {
-    target[i].style.transform = `translate(${-x}px, 0px)`;
+    target[i].style.transform = `translate(${x}px, 0px)`;
   }
 });
