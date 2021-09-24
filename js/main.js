@@ -15,6 +15,7 @@ activeArea.addEventListener("mousemove", (e) => {
   // const y = (yCenter - e.pageY) / parallaxVal;
   // パララックスさせる要素にstyleの指定
   for (var i = 0; i < target.length; i++) {
+    //マウスの動きと逆の方向に移動する(-xにすると同じ方向)
     target[i].style.transform = `translate(${x}px, 0px)`;
   }
 });

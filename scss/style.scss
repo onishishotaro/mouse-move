@@ -5,8 +5,9 @@
 
 .pararaxArea {
   position: relative;
-  height: 500px;
+  height: 800px;
   width: 100vw;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,28 +15,12 @@
 
   .pararaxItem {
     position: absolute;
-
-    // opacity: 0.5;
-
     width: 110vw;
-    height: 500px;
-    // background-color: rgba(104, 152, 208, 0.85);
+    height: 800px;
+
     background: url(../img/pexels-karolina-grabowska-5882683.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     transition: transform 0.6s linear 0.008s;
-
-    // &:nth-child(2) {
-    //   width: 270px;
-    //   height: 270px;
-    //   background-color: rgba(114, 188, 201, 0.71);
-    //   transition: transform 0.5s linear 0.004s;
-    // }
-    // &:nth-child(3) {
-    //   width: 240px;
-    //   height: 240px;
-    //   background-color: rgba(#4cc5f9, 0.68);
-    //   transition: transform 0.3s linear 0s;
-    // }
   }
 }
