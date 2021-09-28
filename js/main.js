@@ -6,7 +6,7 @@ const activeArea = document.getElementById("js-parallaxArea");
 const xCenter = window.innerWidth / 2;
 const yCenter = window.innerHeight / 2;
 // パララックスで移動させる距離
-const parallaxVal = 40; //中心からマウスの距離の10分１移動
+const parallaxVal = 5; //中心からマウスの距離の10分１移動
 
 // マウスがパララックスエリアに入った時のイベント
 activeArea.addEventListener("mousemove", (e) => {
