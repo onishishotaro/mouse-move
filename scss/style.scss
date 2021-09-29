@@ -18,13 +18,22 @@ body {
     position: absolute;
     width: 110vw;
     height: 800px;
+    z-index: -1;
 
-    background: url(../img/pexels-karolina-grabowska-5882683.jpg) no-repeat;
+    background: url(../img/pexels-bruno-glätsch-1461027.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     transition: transform 0.6s ease-out 0.008s;
   }
 }
+.img-size {
+  width: 500px;
+  height: auto;
+  img {
+    width: 100%;
+  }
+}
+
 /*独自のマウスカーソルを作成*/
 .cursor {
   position: fixed;
